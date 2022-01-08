@@ -1,0 +1,23 @@
+header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black 1px;
+}
+
+header > * {
+  margin-left: 3vmax;
+  margin-right: 3vmax;
+}
+
+.signoutContainer {
+  display: flex;
+  align-items: center;
+}
+
+.signoutContainer > button {
+  height: fit-content;
+  margin-left: 1vmax;
+}

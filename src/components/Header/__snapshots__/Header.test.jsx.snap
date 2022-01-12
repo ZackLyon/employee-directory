@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display a Log In button if no user is logged in 1`] = `
+<div>
+  <header>
+    <a
+      href="/"
+    >
+      <h1>
+        Acme Inc.
+      </h1>
+    </a>
+    <div>
+      <a
+        href="/login"
+      >
+        <button>
+          Log In
+        </button>
+      </a>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`should display a user's email if logged in 1`] = `
+<div>
+  <header>
+    <a
+      href="/"
+    >
+      <h1>
+        Acme Inc.
+      </h1>
+    </a>
+    <div>
+      <div
+        class="signoutContainer"
+      >
+        <h3>
+          some@guy.com
+        </h3>
+        <button>
+          Sign Out
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+`;

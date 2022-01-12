@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button {
+  font-weight: bold;
+  background-color: gold;
+  border: gray solid 1px;
+  width: 6vmax;
+  padding: 0.5vmax;
+  cursor: pointer;
+}
+
+span,
+label {
+  font-weight: bold;
+  margin-right: 0.5vw;
+}
+
+p {
+  margin-bottom: 1vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30vmax;
+  padding: 3vmax;
+  background-color: white;
+  border: 1px black solid;
+}
+
+form > * {
+  margin-top: 1vh;
+}
+
+input {
+  width: 15vmax;
+}
